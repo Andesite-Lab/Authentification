@@ -1,0 +1,40 @@
+{
+  "name": "Authentification",
+  "version": "1.0.0",
+  "description": "Authentification - Microservice",
+  "main": "Build/App.js",
+  "types": "Build/App.d.ts",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "fix-lint": "eslint --fix . --ext .ts",
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andesite-Lab/Authentification.git"
+  },
+  "keywords": [
+    "andesite",
+    "andesite-authentification",
+    "authentification"
+  ],
+  "author": "Ruby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Andesite-Lab/Authentification/issues"
+  },
+  "homepage": "https://github.com/Andesite-Lab/Authentification#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.8.4",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "esbuild": "^0.19.4",
+    "esbuild-plugin-alias": "^0.2.1",
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "tsc-alias": "^1.8.8",
+    "typescript": "^5.2.2"
+  }
+}
